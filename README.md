@@ -4,7 +4,18 @@ Ce projet est une API REST utilisant Express.js et Google Cloud Firestore pour g
 
 ## Configuration initiale
 
-Pour démarrer le projet, suivez ces étapes :
+Pour démarrer le projet, suivez ces étapes pour le faire avec Docker Compose : 
+
+1. Clonez le dépôt :
+   ```
+   git clone url_du_dépôt
+   ```
+2. Lancez le conteneur depuis la racine du projet : 
+   ```
+   docker-compose up
+   ```
+
+Pour démarrer le projet, suivez ces étapes pour le faire manuellement :
 
 1. Clonez le dépôt :
    ```
