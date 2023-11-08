@@ -12,8 +12,10 @@ admin.initializeApp({
 const db = admin.firestore();
 
 const userRoutes = require("./routes/users");
-
 app.use("/users", userRoutes);
+
+const taskRoutes = require('./routes/tasks'); 
+app.use('/tasks', taskRoutes);
 
 // Écoute du serveur sur le port 4000
 const PORT = process.env.PORT || 4000;
