@@ -8,7 +8,7 @@ Pour démarrer le projet, suivez ces étapes :
 
 1. Clonez le dépôt :
    ```
-   git clone url_du_dépôt
+   git clone [url_du_dépôt](https://github.com/MiloAnton/API---Firebase---Projet-EFREI.git)
    ```
 2. Installez les dépendances :
    ```
